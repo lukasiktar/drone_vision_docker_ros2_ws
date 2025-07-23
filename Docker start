@@ -1,0 +1,8 @@
+sudo docker run --rm --gpus all --runtime nvidia --network=host -it (docker image name)
+
+
+To start communication: 
+export ROS_MASTER_URI=http://192.168.46.106:11311
+export ROS_IP=192.168.46.106
+
+192.168.46.106
